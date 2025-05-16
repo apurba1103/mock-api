@@ -1,0 +1,222 @@
+[
+    {
+    id: 1,
+    manuscriptIdentifier: { type: 'Manuscript ID', value: 'MS-2025-001' },
+    vendorName: 'Vendor A',
+    status: 'Accepted',
+    dates: {
+      dateAccepted: '2025-04-15',
+      dateProofsSentToAuthor: '2025-04-20',
+      dateASAP: '2025-04-25',
+      issueDate: '2025-05-01'
+    },
+    correspondingAuthor: { name: 'Alice Johnson', email: 'alice.j@example.com' },
+    editor: { name: 'Dr. Smith', email: 'smith.editor@example.com' },
+    manuscriptType: 'Original Research',
+    relatedManuscripts: ['MS-2024-019'],
+    notesFromEO: 'Ready for issue assignment.',
+    notesFromGPO: 'Awaiting confirmation from editorial.',
+    lateLetterStatus: '',
+    jpaType: 'Standard',
+    jpaValidity: 'Valid until 2025-12-31',
+    fundingStatement: 'Funded by ABC Foundation.'
+  },
+  {
+    id: 2,
+    manuscriptIdentifier: { type: 'DOI', value: '10.1001/journal.2025.002' },
+    vendorName: 'Vendor B',
+    status: 'Proof Sent',
+    dates: {
+      dateAccepted: '2025-03-10',
+      dateProofsSentToAuthor: '2025-03-15',
+      dateASAP: '2025-03-20',
+      issueDate: '2025-04-01'
+    },
+    correspondingAuthor: { name: 'Ben Carter', email: 'ben.c@example.com' },
+    editor: { name: 'Maria Gomez', email: 'm.gomez@example.com' },
+    manuscriptType: 'Review Article',
+    relatedManuscripts: [],
+    notesFromEO: '',
+    notesFromGPO: 'Typesetting completed.',
+    lateLetterStatus: 'Third Notification Sent',
+    jpaType: 'Open Access',
+    jpaValidity: 'Valid until 2025-10-15',
+    fundingStatement: 'Supported by NSF, Grant #998877'
+  },
+  {
+    id: 3,
+    manuscriptIdentifier: { type: 'Manuscript ID', value: 'MS-2025-003' },
+    vendorName: 'Vendor C',
+    status: 'In Issue',
+    dates: {
+      dateAccepted: '2025-02-01',
+      dateProofsSentToAuthor: '2025-02-10',
+      dateASAP: '2025-02-15',
+      issueDate: '2025-03-01'
+    },
+    correspondingAuthor: { name: 'Carol Lee', email: 'carol.lee@example.com' },
+    editor: { name: 'Omar Farooq', email: 'omar.f@example.com' },
+    manuscriptType: 'Case Report',
+    relatedManuscripts: [],
+    notesFromEO: 'Delayed author corrections.',
+    notesFromGPO: '',
+    lateLetterStatus: '',
+    jpaType: 'Institutional',
+    jpaValidity: 'Valid until 2025-08-31',
+    fundingStatement: 'Funded by City Health Research.'
+  },
+  {
+    id: 4,
+    manuscriptIdentifier: { type: 'DOI', value: '10.1016/journal.2025.004' },
+    vendorName: 'Vendor D',
+    status: 'Under Review',
+    dates: {
+      dateAccepted: '',
+      dateProofsSentToAuthor: '',
+      dateASAP: '',
+      issueDate: ''
+    },
+    correspondingAuthor: { name: 'Daniel Kwon', email: 'd.kwon@example.com' },
+    editor: { name: 'Linda Park', email: 'linda.p@example.com' },
+    manuscriptType: 'Editorial',
+    relatedManuscripts: [],
+    notesFromEO: '',
+    notesFromGPO: '',
+    lateLetterStatus: '',
+    jpaType: 'N/A',
+    jpaValidity: '',
+    fundingStatement: 'No funding declared.'
+  },
+  {
+    id: 5,
+    manuscriptIdentifier: { type: 'Manuscript ID', value: 'MS-2025-005' },
+    vendorName: 'Vendor E',
+    status: 'Proof Sent',
+    dates: {
+      dateAccepted: '2025-04-10',
+      dateProofsSentToAuthor: '2025-04-15',
+      dateASAP: '',
+      issueDate: ''
+    },
+    correspondingAuthor: { name: 'Emma Roberts', email: 'emma.r@example.com' },
+    editor: { name: 'James Lin', email: 'james.l@example.com' },
+    manuscriptType: 'Letter',
+    relatedManuscripts: [],
+    notesFromEO: '',
+    notesFromGPO: '',
+    lateLetterStatus: '',
+    jpaType: 'Standard',
+    jpaValidity: 'Valid until 2026-01-01',
+    fundingStatement: 'Funded by Tech Scholars Program.'
+  },
+  {
+    id: 6,
+    manuscriptIdentifier: { type: 'DOI', value: '10.1126/science.2025.006' },
+    vendorName: 'Vendor F',
+    status: 'Accepted',
+    dates: {
+      dateAccepted: '2025-03-25',
+      dateProofsSentToAuthor: '',
+      dateASAP: '',
+      issueDate: ''
+    },
+    correspondingAuthor: { name: 'Frank Zhang', email: 'f.zhang@example.com' },
+    editor: { name: 'Sarah Lee', email: 's.lee@example.com' },
+    manuscriptType: 'Short Communication',
+    relatedManuscripts: [],
+    notesFromEO: 'Fast-tracked for ASAP.',
+    notesFromGPO: '',
+    lateLetterStatus: '',
+    jpaType: 'Rapid Access',
+    jpaValidity: 'Valid until 2025-09-01',
+    fundingStatement: 'Grant support from Health Ministry.'
+  },
+  {
+    id: 7,
+    manuscriptIdentifier: { type: 'Manuscript ID', value: 'MS-2025-007' },
+    vendorName: 'Vendor A',
+    status: 'In Issue',
+    dates: {
+      dateAccepted: '2025-01-15',
+      dateProofsSentToAuthor: '2025-01-20',
+      dateASAP: '2025-01-25',
+      issueDate: '2025-02-15'
+    },
+correspondingAuthor: { name: 'Grace Kim', email: 'g.kim@example.com' },
+    editor: { name: 'Ivan Petrov', email: 'ivan.p@example.com' },
+    manuscriptType: 'Original Research',
+    relatedManuscripts: ['MS-2025-008'],
+    notesFromEO: '',
+    notesFromGPO: 'Checked and finalized.',
+    lateLetterStatus: '',
+    jpaType: 'Standard',
+    jpaValidity: 'Valid until 2025-12-01',
+    fundingStatement: 'Supported by Global Research Fund.'
+  },
+  {
+    id: 8,
+    manuscriptIdentifier: { type: 'DOI', value: '10.1080/journal.2025.008' },
+    vendorName: 'Vendor B',
+    status: 'Proof Sent',
+    dates: {
+      dateAccepted: '2025-05-05',
+      dateProofsSentToAuthor: '2025-05-08',
+      dateASAP: '',
+      issueDate: ''
+    },
+    correspondingAuthor: { name: 'Hannah Lee', email: 'hannah.l@example.com' },
+    editor: { name: 'Kevin Morris', email: 'kevin.m@example.com' },
+    manuscriptType: 'Commentary',
+    relatedManuscripts: [],
+    notesFromEO: 'EO awaiting author approval.',
+    notesFromGPO: '',
+    lateLetterStatus: '',
+    jpaType: 'Open Access',
+    jpaValidity: 'Valid until 2025-11-30',
+    fundingStatement: 'No funding declared.'
+  },
+  {
+    id: 9,
+    manuscriptIdentifier: { type: 'Manuscript ID', value: 'MS-2025-009' },
+    vendorName: 'Vendor D',
+    status: 'Accepted',
+    dates: {
+      dateAccepted: '2025-04-01',
+      dateProofsSentToAuthor: '',
+      dateASAP: '',
+      issueDate: ''
+    },
+    correspondingAuthor: { name: 'Isaac Newton', email: 'newton.i@example.com' },
+    editor: { name: 'Albert Einstein', email: 'einstein.a@example.com' },
+    manuscriptType: 'Brief Report',
+    relatedManuscripts: [],
+    notesFromEO: '',
+    notesFromGPO: 'Notify EO for next step.',
+    lateLetterStatus: '',
+    jpaType: 'Standard',
+    jpaValidity: 'Valid until 2026-01-01',
+    fundingStatement: 'Funded by Theoretical Physics Lab.'
+  },
+  {
+    id: 10,
+    manuscriptIdentifier: { type: 'DOI', value: '10.1145/acm.2025.010' },
+    vendorName: 'Vendor E',
+    status: 'In Issue',
+    dates: {
+      dateAccepted: '2025-02-15',
+      dateProofsSentToAuthor: '2025-02-20',
+      dateASAP: '2025-02-25',
+      issueDate: '2025-03-15'
+    },
+    correspondingAuthor: { name: 'Jane Austen', email: 'j.austen@example.com' },
+    editor: { name: 'William Shakespeare', email: 'w.shakespeare@example.com' },
+    manuscriptType: 'Opinion Piece',
+    relatedManuscripts: ['MS-2024-015'],
+    notesFromEO: 'EO reviewed and approved.',
+    notesFromGPO: 'No issues noted.',
+    lateLetterStatus: '',
+    jpaType: 'Institutional',
+    jpaValidity: 'Valid until 2025-12-01',
+    fundingStatement: 'Funded by Literary Studies Council.'
+  }
+];
